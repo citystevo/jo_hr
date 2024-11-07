@@ -18,7 +18,7 @@ load_dotenv()
 SECRET_KEY = '@ujr-e&a%8m%6!z(+ka16+(sm6cug(h6noe%#p%=6%d2nz5t+#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['johr-production.up.railway.app', 'https://johr-production.up.railway.app']
 CSRF_TRUSTED_ORIGINS = ['https://johr-production.up.railway.app']
